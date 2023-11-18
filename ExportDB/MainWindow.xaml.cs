@@ -22,7 +22,7 @@ namespace ExportDB
         }
         private void OnClikExport(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("导出成功!!!");
+            
         }
         private void OnSelectDBExportPathClick(object sender, RoutedEventArgs e)
         {
@@ -39,6 +39,11 @@ namespace ExportDB
             Button removeButton = (Button)sender;
             FileItem fileToRemove = (FileItem)removeButton.DataContext;
             Files.Remove(fileToRemove);
+        }
+        private void OnShowLogClick(object sender, RoutedEventArgs e)
+        {
+            LogWindow logWindow = new LogWindow();
+            logWindow.ShowDialog();
         }
 
         private void OnSelectExcelFileClick(object sender, RoutedEventArgs e)

@@ -12,4 +12,18 @@
       <PackageReference Include="Ookii.Dialogs.Wpf" Version="3.0.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Page Update="LogWindow.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="LogWindow.xaml.cs">
+        <DependentUpon>LogWindow.xaml</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
 </Project>

@@ -42,3 +42,5 @@ D:\ExportDB\ExportDB\obj\Debug\net8.0-windows\refint\ExportDB.dll
 D:\ExportDB\ExportDB\obj\Debug\net8.0-windows\ExportDB.pdb
 D:\ExportDB\ExportDB\obj\Debug\net8.0-windows\ExportDB.genruntimeconfig.cache
 D:\ExportDB\ExportDB\obj\Debug\net8.0-windows\ref\ExportDB.dll
+D:\ExportDB\ExportDB\obj\Debug\net8.0-windows\LogWindow.baml
+D:\ExportDB\ExportDB\obj\Debug\net8.0-windows\LogWindow.g.cs
