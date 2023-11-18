@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\rider\ExportDB\ExportDB\obj\Release\net8.0-windows\
+D:\ExportDB\ExportDB\obj\Release\net8.0-windows\
 ExportDB
 none
 false
 TRACE;RELEASE;NET;NET8_0;NETCOREAPP
-D:\rider\ExportDB\ExportDB\App.xaml
-11407045341
+D:\ExportDB\ExportDB\App.xaml
+2840806792
 
-6-1651411270
-208-1448719864
-MainWindow.xaml;
+102054832124
+225-499413990
+LogWindow.xaml;MainWindow.xaml;
 
 False
 
