@@ -38,9 +38,25 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.5, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "NPOI.Excel": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
             "Ookii.Dialogs.Wpf": {
               "target": "Package",
               "version": "[3.0.1, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.118, )"
             }
           },
           "imports": [

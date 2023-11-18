@@ -1,4 +1,6 @@
-﻿using System.Windows;
+﻿using System.Collections.Generic;
+using System.Windows;
+using ExportDB.Core;
 
 namespace ExportDB
 {
@@ -16,11 +18,23 @@ namespace ExportDB
             MessageBox.Show("已复制到剪切板");
         }
 
-        // 可以根据实际情况获取日志内容的方法
+        // 获取日志内容的方法
         private string GetLogContent()
         {
             // 这里返回日志列表中的内容
-            return "这是一个示例日志。";
+            List<string> logEntries = new List<string>();
+            foreach (var item in LogListBox.Items)
+            {
+                logEntries.Add(item.ToString());
+            }
+
+            return string.Join("\n", logEntries);
+        }
+
+        // 设置日志列表
+        public void SetLogEntries(List<string> logEntries)
+        {
+            LogListBox.ItemsSource = logEntries;
         }
     }
 }

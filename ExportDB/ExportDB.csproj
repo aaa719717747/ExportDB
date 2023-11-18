@@ -9,7 +9,11 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="NLog" Version="5.2.5" />
+      <PackageReference Include="NPOI" Version="2.6.0" />
+      <PackageReference Include="NPOI.Excel" Version="2.1.1" />
       <PackageReference Include="Ookii.Dialogs.Wpf" Version="3.0.1" />
+      <PackageReference Include="System.Data.SQLite" Version="1.0.118" />
     </ItemGroup>
 
     <ItemGroup>

@@ -66,10 +66,9 @@
 
 
 
-        <!-- 显示日志按钮 -->
-        <Button Grid.Row="3" Content="显示日志" HorizontalAlignment="Left" VerticalAlignment="Center" Width="Auto" Click="OnShowLogClick"/>
+      
 
         <!-- 开始导出按钮 -->
-        <Button Grid.Row="3" Content="开始导出" HorizontalAlignment="Right" VerticalAlignment="Center" Width="Auto" Click="OnClikExport"/>
+        <Button Grid.Row="3" Content="开始导出" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="10,20,10,10" Click="OnClikExport" Background="Green" Height="40"/>
     </Grid>
 </Window>
