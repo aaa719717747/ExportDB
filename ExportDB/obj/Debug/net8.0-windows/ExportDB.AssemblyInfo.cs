@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExportDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8746088b080e241bf7919a19b20cd054a6548ea8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e5dd276237aa4db3f9388211eddbb19225d63fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExportDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExportDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
