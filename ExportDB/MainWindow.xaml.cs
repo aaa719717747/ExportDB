@@ -1,5 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 using System.Configuration;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Windows;
@@ -51,6 +52,19 @@ namespace ExportDB
                     Directory.CreateDirectory(exportPath);
                 }
 
+                foreach (var fileItem in Files)
+                {
+                    string dbName = $"{fileItem.ExcelName}.db";
+                    string dbFilePath = Path.Combine(exportPath, dbName);
+                    //如果目标路径中已经存在指定名称的DB文件，那么应该删除它
+                    if (File.Exists(dbFilePath))
+                    {
+                        LogHelper.Log($"删除{dbName}...");
+                        File.Delete(dbFilePath);
+                    }
+                }
+
+                
                
 
                 // 遍历Excel文件列表，逐个转换为SQLite的DB文件
@@ -79,6 +93,7 @@ namespace ExportDB
                 // 导出失败的日志记录
                 LogHelper.Log($"导出数据库时发生错误: {ex.Message}", LogLevel.ERROR);
                 LogHelper.Log($"导出数据库时发生错误: {ex.StackTrace}", LogLevel.ERROR);
+                LogHelper.Log("导出失败!!!");
             }
             finally
             {
@@ -148,6 +163,7 @@ namespace ExportDB
                     {
                         // 处理异常，你可以输出异常信息到日志或者显示一个错误消息框
                         LogHelper.Log($"Error extracting icon for {selectedFilePath}: {ex.Message}", LogLevel.ERROR);
+                        LogHelper.Log("导出失败!!!");
                     }
                 }
             }
