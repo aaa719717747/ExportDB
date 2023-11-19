@@ -1,4 +1,5 @@
 ﻿using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Configuration;
 using System.Diagnostics;
 using System.Drawing;
@@ -29,8 +30,36 @@ namespace ExportDB
             InitializeComponent();
             Files = new ObservableCollection<FileItem>();
             FileList.ItemsSource = Files;
+            DBExportPath.Text = LoadPersonFromConfig();
         }
 
+        // 保存数据到配置文件
+        private void SavePersonToConfig()
+        {
+            var configFile = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);  
+            var settings = configFile.AppSettings.Settings;  
+            settings["Path"].Value = DBExportPath.Text;  
+            configFile.Save(ConfigurationSaveMode.Modified);
+            ConfigurationManager.RefreshSection(configFile.AppSettings.SectionInformation.Name);
+        }
+
+        // 从配置文件中加载数据
+        private string LoadPersonFromConfig()
+        {
+            
+            try  
+            {  
+                var appSettings = ConfigurationManager.AppSettings;  
+                return appSettings["Path"] ?? "Not Found";
+            }
+            catch (Exception e)
+            {
+                // 处理异常，比如配置文件不存在或数据格式错误
+                LogHelper.Log($"加载数据时发生错误: {e.Message}", LogLevel.ERROR);
+                throw;
+            }
+        }
+        
 
         private void OnClikExport(object sender, RoutedEventArgs e)
         {
@@ -64,8 +93,6 @@ namespace ExportDB
                     }
                 }
 
-                
-               
 
                 // 遍历Excel文件列表，逐个转换为SQLite的DB文件
                 foreach (var fileItem in Files)
@@ -74,7 +101,7 @@ namespace ExportDB
                     string dbName = $"{fileItem.ExcelName}.db";
                     string dbFilePath = Path.Combine(exportPath, dbName);
                     dbHelper = new SQLiteDBHelper(dbFilePath);
-                    
+
                     string excelFilePath = fileItem.FilePath;
                     string tableName = Path.GetFileNameWithoutExtension(excelFilePath);
 
@@ -82,7 +109,7 @@ namespace ExportDB
                     LogHelper.Log($"开始转换{tableName}...");
 
                     // 执行Excel到SQLite的转换
-                    SQLDB.Change2DB(dbHelper,excelFilePath);
+                    SQLDB.Change2DB(dbHelper, excelFilePath);
                 }
 
                 // 导出成功的日志记录
@@ -111,6 +138,7 @@ namespace ExportDB
             {
                 // 更新 TextBlock 的内容
                 DBExportPath.Text = selectedFolderPath;
+                SavePersonToConfig();
             }
         }
 

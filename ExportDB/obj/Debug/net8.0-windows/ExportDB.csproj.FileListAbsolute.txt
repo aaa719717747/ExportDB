@@ -70,3 +70,4 @@ D:\ExportDB\ExportDB\bin\Debug\net8.0-windows\runtimes\win-x64\native\SQLite.Int
 D:\ExportDB\ExportDB\bin\Debug\net8.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
 D:\ExportDB\ExportDB\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\ExportDB\ExportDB\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ExportDB\ExportDB\bin\Debug\net8.0-windows\ExportDB.dll.config
