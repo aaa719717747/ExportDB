@@ -1,0 +1,58 @@
+This is a legal agreement between you, the "end user," and Coral Creek Software 
+("the author"). Downloading of this shareware (the "SOFTWARE") indicates 
+your acceptance of these terms. 
+
+Copyright
+
+The Software is owned by the author (except where stated) and is 
+protected by United States copyright laws and international treaty provisions. 
+
+Freeware License
+
+This Software is being distributed as Freeware. It may be freely used, copied 
+and distributed as long as it is not sold, and all original files are included, 
+including this license. You are NOT allowed to make a charge for distributing 
+this Software (either for profit or merely to recover your media and 
+distribution costs) whether as a stand-alone product, or as part of a 
+compilation or anthology, without explicit prior written permission. By using 
+this Software, you agree to these terms and the terms of the Disclaimer below:
+
+Disclaimer of Warranty
+
+
+This software is provided "AS IS", without warranty of any kind. 
+
+The entire and exclusive liability and remedy for breach of this limited 
+warranty shall be limited to replacement of defective media or documentation 
+and shall not include or extend to any claim for or right to recover any other 
+damages, including but not limited to, loss of profit, data, or use of the 
+software or special, incidental or consequential damages, or other similar 
+claims, even if the author has been specifically advised of the possibility of 
+such damages. In no event will the author's liability for any damages to the end 
+user or any other person ever exceed the lower of the list price or the actual 
+price paid for the license to use the software, regardless of the form of the 
+claim. 
+
+THE AUTHOR SPECIFICALLY DISCLAIMS ALL OTHER WARRANTIES, REPRESENTATIONS, OR 
+CONDITIONS, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, ANY IMPLIED WARRANTY 
+OR CONDITION OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. ALL OTHER 
+IMPLIED TERMS ARE EXCLUDED. 
+
+Specifically, the author makes no representation or warranty that the software 
+or documentation are "error-free", or meet any user's particular standards, 
+requirements, or needs. In all events, any implied warranty, representation, 
+condition or other term is limited to the physical media and documentation and 
+is limited to the 90-day duration of the limited warranty. The author is not 
+responsible for, and does not make any representation, warranty, or condition 
+concerning product, media, software, or documentation not manufactured or 
+supplied by the author, such as third-parties' programs that are designed using
+the author programs or files. 
+
+General
+
+This license will be construed under the laws of the state of Florida, except 
+for that body of law dealing with conflicts of law. If any provision of this 
+License shall be held by a court of competent jurisdiction to be contrary to law, 
+that provision will be enforced to the maximum extent permissible, and the 
+remaining provisions of this license will remain in full force and effect. 
+

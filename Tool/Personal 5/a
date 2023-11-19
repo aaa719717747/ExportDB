@@ -1,0 +1,1 @@
+"name" LIKE '%leveraged%' OR "name" LIKE '%3x%' OR "name" LIKE '%2x%' OR "name" LIKE '%ultra%'

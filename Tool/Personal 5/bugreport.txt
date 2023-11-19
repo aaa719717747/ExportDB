@@ -1,0 +1,330 @@
+date/time          : 2023-11-19, 00:36:22, 44ms
+computer name      : PC-20220825LUPL
+user name          : Administrator <admin>
+registered owner   : PC / Microsoft
+operating system   : Windows 10 x64 build 17763
+system language    : Chinese (Simplified)
+system up time     : 2 days 1 hour
+program up time    : 24 seconds
+processors         : 6x AMD Ryzen 5 3500X 6-Core Processor
+physical memory    : 967/8143 MB (free/total)
+free disk space    : (C:) 108.01 GB (D:) 41.54 GB
+display mode       : 1920x1080, 32 bit
+process id         : $38f0
+allocated memory   : 160.21 MB
+largest free block : 131025.92 GB
+executable         : SQLiteExpertPers64.exe
+exec. date/time    : 2023-10-20 14:36
+version            : 5.5.7.618
+compiled with      : Delphi compiler version 35.0
+madExcept version  : 4.0.18
+callstack crc      : $d2ab15f3, $44d91bca, $c048c655
+count              : 2
+exception number   : 2
+exception class    : Exception
+exception message  : File already exists: E:\GitHubFiles\Excel2SQLite\GameDB\GameDB.db3.
+
+main thread ($3230):
+02270ef7 SQLiteExpertPers64.exe SQLiteExpert.MainViewModel  4226  +9 TSQLiteExpertMainViewModel.FileNew
+005e11d0 SQLiteExpertPers64.exe System.Classes                       TBasicAction.Execute
+00698f85 SQLiteExpertPers64.exe Vcl.ActnList                         TCustomAction.Execute
+005e0eb4 SQLiteExpertPers64.exe System.Classes                       TBasicActionLink.Execute
+0239d3c0 SQLiteExpertPers64.exe dxBar                      56575  +5 TdxBarItem.DoClick
+0239d30c SQLiteExpertPers64.exe dxBar                      56562  +5 TdxBarItem.DirectClick
+02391a66 SQLiteExpertPers64.exe dxBar                      52279 +29 TdxBarItemControl.ControlUnclick
+023979c2 SQLiteExpertPers64.exe dxBar                      54477  +6 TdxBarButtonControl.ControlUnclick
+0236e814 SQLiteExpertPers64.exe dxBar                      40206 +18 TCustomdxBarControl.DoLButtonUp
+0236c472 SQLiteExpertPers64.exe dxBar                      39448  +6 TCustomdxBarControl.WMLButtonUp
+0040f932 SQLiteExpertPers64.exe System                               TObject.Dispatch
+006c91ed SQLiteExpertPers64.exe Vcl.Controls                         TControl.WndProc
+006d065b SQLiteExpertPers64.exe Vcl.Controls                         TWinControl.WndProc
+0236d7f0 SQLiteExpertPers64.exe dxBar                      39850 +39 TCustomdxBarControl.WndProc
+006cf7fa SQLiteExpertPers64.exe Vcl.Controls                         TWinControl.MainWndProc
+005e26f3 SQLiteExpertPers64.exe System.Classes                       StdWndProc
+7ffcc688 USER32.dll                                                  DispatchMessageW
+008537ae SQLiteExpertPers64.exe Vcl.Forms                            TApplication.ProcessMessage
+00853823 SQLiteExpertPers64.exe Vcl.Forms                            TApplication.HandleMessage
+00853c7a SQLiteExpertPers64.exe Vcl.Forms                            TApplication.Run
+02c19390 SQLiteExpertPers64.exe SQLiteExpertPers             543 +22 initialization
+7ffcc71c KERNEL32.DLL                                                BaseThreadInitThunk
+7ffcc731 ntdll.dll                                                   RtlUserThreadStart
+
+thread $2e08:
+7ffcc71c KERNEL32.DLL  BaseThreadInitThunk
+7ffcc731 ntdll.dll     RtlUserThreadStart
+
+thread $29b0:
+7ffcc71c KERNEL32.DLL  BaseThreadInitThunk
+7ffcc731 ntdll.dll     RtlUserThreadStart
+
+thread $3b10:
+7ffcc71c KERNEL32.DLL  BaseThreadInitThunk
+7ffcc731 ntdll.dll     RtlUserThreadStart
+
+thread $3880:
+7ffcc362 KERNELBASE.dll                                    SleepEx
+005ddbe4 SQLiteExpertPers64.exe System.Classes             TThread.Sleep
+00e0f182 SQLiteExpertPers64.exe Vmx.System.TaskPool 74 +10 TVmxPoolThread.Execute
+00505454 SQLiteExpertPers64.exe madExcept                  HookedTThreadExecute
+005dc610 SQLiteExpertPers64.exe System.Classes             ThreadProc
+0041224a SQLiteExpertPers64.exe System                     ThreadWrapper
+00505329 SQLiteExpertPers64.exe madExcept                  ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                                      BaseThreadInitThunk
+7ffcc731 ntdll.dll                                         RtlUserThreadStart
+
+thread $2e44:
+7ffcc362 KERNELBASE.dll                                    SleepEx
+005ddbe4 SQLiteExpertPers64.exe System.Classes             TThread.Sleep
+00e0f182 SQLiteExpertPers64.exe Vmx.System.TaskPool 74 +10 TVmxPoolThread.Execute
+00505454 SQLiteExpertPers64.exe madExcept                  HookedTThreadExecute
+005dc610 SQLiteExpertPers64.exe System.Classes             ThreadProc
+0041224a SQLiteExpertPers64.exe System                     ThreadWrapper
+00505329 SQLiteExpertPers64.exe madExcept                  ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                                      BaseThreadInitThunk
+7ffcc731 ntdll.dll                                         RtlUserThreadStart
+
+thread $3554:
+7ffcc362 KERNELBASE.dll                                    SleepEx
+005ddbe4 SQLiteExpertPers64.exe System.Classes             TThread.Sleep
+00e0f182 SQLiteExpertPers64.exe Vmx.System.TaskPool 74 +10 TVmxPoolThread.Execute
+00505454 SQLiteExpertPers64.exe madExcept                  HookedTThreadExecute
+005dc610 SQLiteExpertPers64.exe System.Classes             ThreadProc
+0041224a SQLiteExpertPers64.exe System                     ThreadWrapper
+00505329 SQLiteExpertPers64.exe madExcept                  ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                                      BaseThreadInitThunk
+7ffcc731 ntdll.dll                                         RtlUserThreadStart
+
+thread $35c4:
+7ffcc362 KERNELBASE.dll                                    SleepEx
+005ddbe4 SQLiteExpertPers64.exe System.Classes             TThread.Sleep
+00e0f182 SQLiteExpertPers64.exe Vmx.System.TaskPool 74 +10 TVmxPoolThread.Execute
+00505454 SQLiteExpertPers64.exe madExcept                  HookedTThreadExecute
+005dc610 SQLiteExpertPers64.exe System.Classes             ThreadProc
+0041224a SQLiteExpertPers64.exe System                     ThreadWrapper
+00505329 SQLiteExpertPers64.exe madExcept                  ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                                      BaseThreadInitThunk
+7ffcc731 ntdll.dll                                         RtlUserThreadStart
+
+thread $3b80:
+7ffcc362 KERNELBASE.dll                                    SleepEx
+005ddbe4 SQLiteExpertPers64.exe System.Classes             TThread.Sleep
+00e0f182 SQLiteExpertPers64.exe Vmx.System.TaskPool 74 +10 TVmxPoolThread.Execute
+00505454 SQLiteExpertPers64.exe madExcept                  HookedTThreadExecute
+005dc610 SQLiteExpertPers64.exe System.Classes             ThreadProc
+0041224a SQLiteExpertPers64.exe System                     ThreadWrapper
+00505329 SQLiteExpertPers64.exe madExcept                  ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                                      BaseThreadInitThunk
+7ffcc731 ntdll.dll                                         RtlUserThreadStart
+
+thread $20b8:
+7ffcc362 KERNELBASE.dll                                    SleepEx
+005ddbe4 SQLiteExpertPers64.exe System.Classes             TThread.Sleep
+00e0f182 SQLiteExpertPers64.exe Vmx.System.TaskPool 74 +10 TVmxPoolThread.Execute
+00505454 SQLiteExpertPers64.exe madExcept                  HookedTThreadExecute
+005dc610 SQLiteExpertPers64.exe System.Classes             ThreadProc
+0041224a SQLiteExpertPers64.exe System                     ThreadWrapper
+00505329 SQLiteExpertPers64.exe madExcept                  ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                                      BaseThreadInitThunk
+7ffcc731 ntdll.dll                                         RtlUserThreadStart
+
+thread $34f8:
+7ffcc362 KERNELBASE.dll                                    SleepEx
+005ddbe4 SQLiteExpertPers64.exe System.Classes             TThread.Sleep
+00e0f182 SQLiteExpertPers64.exe Vmx.System.TaskPool 74 +10 TVmxPoolThread.Execute
+00505454 SQLiteExpertPers64.exe madExcept                  HookedTThreadExecute
+005dc610 SQLiteExpertPers64.exe System.Classes             ThreadProc
+0041224a SQLiteExpertPers64.exe System                     ThreadWrapper
+00505329 SQLiteExpertPers64.exe madExcept                  ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                                      BaseThreadInitThunk
+7ffcc731 ntdll.dll                                         RtlUserThreadStart
+
+thread $212c:
+7ffcc362 KERNELBASE.dll                                    SleepEx
+005ddbe4 SQLiteExpertPers64.exe System.Classes             TThread.Sleep
+00e0f182 SQLiteExpertPers64.exe Vmx.System.TaskPool 74 +10 TVmxPoolThread.Execute
+00505454 SQLiteExpertPers64.exe madExcept                  HookedTThreadExecute
+005dc610 SQLiteExpertPers64.exe System.Classes             ThreadProc
+0041224a SQLiteExpertPers64.exe System                     ThreadWrapper
+00505329 SQLiteExpertPers64.exe madExcept                  ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                                      BaseThreadInitThunk
+7ffcc731 ntdll.dll                                         RtlUserThreadStart
+
+thread $2bf0:
+7ffcc362 KERNELBASE.dll                                    SleepEx
+005ddbe4 SQLiteExpertPers64.exe System.Classes             TThread.Sleep
+00e0f182 SQLiteExpertPers64.exe Vmx.System.TaskPool 74 +10 TVmxPoolThread.Execute
+00505454 SQLiteExpertPers64.exe madExcept                  HookedTThreadExecute
+005dc610 SQLiteExpertPers64.exe System.Classes             ThreadProc
+0041224a SQLiteExpertPers64.exe System                     ThreadWrapper
+00505329 SQLiteExpertPers64.exe madExcept                  ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                                      BaseThreadInitThunk
+7ffcc731 ntdll.dll                                         RtlUserThreadStart
+
+thread $182c:
+7ffcc362 KERNELBASE.dll                                    SleepEx
+005ddbe4 SQLiteExpertPers64.exe System.Classes             TThread.Sleep
+00e0f182 SQLiteExpertPers64.exe Vmx.System.TaskPool 74 +10 TVmxPoolThread.Execute
+00505454 SQLiteExpertPers64.exe madExcept                  HookedTThreadExecute
+005dc610 SQLiteExpertPers64.exe System.Classes             ThreadProc
+0041224a SQLiteExpertPers64.exe System                     ThreadWrapper
+00505329 SQLiteExpertPers64.exe madExcept                  ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                                      BaseThreadInitThunk
+7ffcc731 ntdll.dll                                         RtlUserThreadStart
+
+thread $27ac:
+7ffcc362 KERNELBASE.dll                                    SleepEx
+005ddbe4 SQLiteExpertPers64.exe System.Classes             TThread.Sleep
+00e0f182 SQLiteExpertPers64.exe Vmx.System.TaskPool 74 +10 TVmxPoolThread.Execute
+00505454 SQLiteExpertPers64.exe madExcept                  HookedTThreadExecute
+005dc610 SQLiteExpertPers64.exe System.Classes             ThreadProc
+0041224a SQLiteExpertPers64.exe System                     ThreadWrapper
+00505329 SQLiteExpertPers64.exe madExcept                  ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                                      BaseThreadInitThunk
+7ffcc731 ntdll.dll                                         RtlUserThreadStart
+
+thread $39c8:
+7ffcc362 KERNELBASE.dll                                    SleepEx
+005ddbe4 SQLiteExpertPers64.exe System.Classes             TThread.Sleep
+00e0f182 SQLiteExpertPers64.exe Vmx.System.TaskPool 74 +10 TVmxPoolThread.Execute
+00505454 SQLiteExpertPers64.exe madExcept                  HookedTThreadExecute
+005dc610 SQLiteExpertPers64.exe System.Classes             ThreadProc
+0041224a SQLiteExpertPers64.exe System                     ThreadWrapper
+00505329 SQLiteExpertPers64.exe madExcept                  ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                                      BaseThreadInitThunk
+7ffcc731 ntdll.dll                                         RtlUserThreadStart
+
+thread $2670:
+7ffcc689 USER32.dll    MsgWaitForMultipleObjectsEx
+7ffcc71c KERNEL32.DLL  BaseThreadInitThunk
+7ffcc731 ntdll.dll     RtlUserThreadStart
+
+thread $1ac0:
+7ffcc71c KERNEL32.DLL  BaseThreadInitThunk
+7ffcc731 ntdll.dll     RtlUserThreadStart
+
+thread $160c:
+7ffcc71c KERNEL32.DLL  BaseThreadInitThunk
+7ffcc731 ntdll.dll     RtlUserThreadStart
+
+thread $3970:
+7ffcc71c KERNEL32.DLL  BaseThreadInitThunk
+7ffcc731 ntdll.dll     RtlUserThreadStart
+
+thread $25f4:
+7ffcc364 KERNELBASE.dll                   WaitForMultipleObjectsEx
+00505329 SQLiteExpertPers64.exe madExcept ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                     BaseThreadInitThunk
+7ffcc731 ntdll.dll                        RtlUserThreadStart
+
+thread $23cc: <priority:2>
+7ffcc68a USER32.dll                       GetMessageA
+00505329 SQLiteExpertPers64.exe madExcept ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                     BaseThreadInitThunk
+7ffcc731 ntdll.dll                        RtlUserThreadStart
+
+thread $19b4:
+7ffcc362 KERNELBASE.dll                                      SleepEx
+00e1e814 SQLiteExpertPers64.exe Vmx.System.Async      325 +8 TAsync.Wait
+00e1e35d SQLiteExpertPers64.exe Vmx.System.Async      284 +6 TAsync.DoEvery[1]$ActRec.$0$Body
+00e0ae56 SQLiteExpertPers64.exe Vmx.System.SimpleTask  37 +2 TVmxSimpleThread.Execute
+00505454 SQLiteExpertPers64.exe madExcept                    HookedTThreadExecute
+005dc610 SQLiteExpertPers64.exe System.Classes               ThreadProc
+0041224a SQLiteExpertPers64.exe System                       ThreadWrapper
+00505329 SQLiteExpertPers64.exe madExcept                    ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                                        BaseThreadInitThunk
+7ffcc731 ntdll.dll                                           RtlUserThreadStart
+
+thread $11a0:
+7ffcc362 KERNELBASE.dll                                      SleepEx
+00e1e814 SQLiteExpertPers64.exe Vmx.System.Async      325 +8 TAsync.Wait
+00e1e35d SQLiteExpertPers64.exe Vmx.System.Async      284 +6 TAsync.DoEvery[1]$ActRec.$0$Body
+00e0ae56 SQLiteExpertPers64.exe Vmx.System.SimpleTask  37 +2 TVmxSimpleThread.Execute
+00505454 SQLiteExpertPers64.exe madExcept                    HookedTThreadExecute
+005dc610 SQLiteExpertPers64.exe System.Classes               ThreadProc
+0041224a SQLiteExpertPers64.exe System                       ThreadWrapper
+00505329 SQLiteExpertPers64.exe madExcept                    ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                                        BaseThreadInitThunk
+7ffcc731 ntdll.dll                                           RtlUserThreadStart
+
+thread $3a98:
+7ffcc362 KERNELBASE.dll                                      SleepEx
+00e1e814 SQLiteExpertPers64.exe Vmx.System.Async      325 +8 TAsync.Wait
+00e1e35d SQLiteExpertPers64.exe Vmx.System.Async      284 +6 TAsync.DoEvery[1]$ActRec.$0$Body
+00e0ae56 SQLiteExpertPers64.exe Vmx.System.SimpleTask  37 +2 TVmxSimpleThread.Execute
+00505454 SQLiteExpertPers64.exe madExcept                    HookedTThreadExecute
+005dc610 SQLiteExpertPers64.exe System.Classes               ThreadProc
+0041224a SQLiteExpertPers64.exe System                       ThreadWrapper
+00505329 SQLiteExpertPers64.exe madExcept                    ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                                        BaseThreadInitThunk
+7ffcc731 ntdll.dll                                           RtlUserThreadStart
+
+thread $ebc:
+7ffcc362 KERNELBASE.dll                                      SleepEx
+00e1e814 SQLiteExpertPers64.exe Vmx.System.Async      325 +8 TAsync.Wait
+00e1e35d SQLiteExpertPers64.exe Vmx.System.Async      284 +6 TAsync.DoEvery[1]$ActRec.$0$Body
+00e0ae56 SQLiteExpertPers64.exe Vmx.System.SimpleTask  37 +2 TVmxSimpleThread.Execute
+00505454 SQLiteExpertPers64.exe madExcept                    HookedTThreadExecute
+005dc610 SQLiteExpertPers64.exe System.Classes               ThreadProc
+0041224a SQLiteExpertPers64.exe System                       ThreadWrapper
+00505329 SQLiteExpertPers64.exe madExcept                    ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                                        BaseThreadInitThunk
+7ffcc731 ntdll.dll                                           RtlUserThreadStart
+
+thread $1614:
+7ffcc689 USER32.dll                       MsgWaitForMultipleObjectsEx
+7ffcb4d5 DUser.dll                        GetMessageExA
+7ffcc4c4 msvcrt.dll                       _endthreadex
+00505329 SQLiteExpertPers64.exe madExcept ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                     BaseThreadInitThunk
+7ffcc731 ntdll.dll                        RtlUserThreadStart
+
+thread $2160:
+7ffcc689 USER32.dll    MsgWaitForMultipleObjectsEx
+7ffcc735 ntdll.dll     KiUserCallbackDispatcher
+7ffcc68a USER32.dll    GetMessageW
+7ffc980a DUI70.dll     StartMessagePump
+7ffcc71c KERNEL32.DLL  BaseThreadInitThunk
+7ffcc731 ntdll.dll     RtlUserThreadStart
+
+thread $39b4:
+7ffcc364 KERNELBASE.dll                   WaitForMultipleObjectsEx
+00505329 SQLiteExpertPers64.exe madExcept ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                     BaseThreadInitThunk
+7ffcc731 ntdll.dll                        RtlUserThreadStart
+
+thread $2110:
+7ffcc364 KERNELBASE.dll  WaitForMultipleObjectsEx
+7ffcc364 KERNELBASE.dll  WaitForMultipleObjects
+7ffcc71c KERNEL32.DLL    BaseThreadInitThunk
+7ffcc731 ntdll.dll       RtlUserThreadStart
+
+thread $38f4:
+7ffcc689 USER32.dll                       MsgWaitForMultipleObjectsEx
+00505329 SQLiteExpertPers64.exe madExcept ThreadExceptFrame
+7ffcc71c KERNEL32.DLL                     BaseThreadInitThunk
+7ffcc731 ntdll.dll                        RtlUserThreadStart
+
+thread $26e0:
+7ffcc71c KERNEL32.DLL  BaseThreadInitThunk
+7ffcc731 ntdll.dll     RtlUserThreadStart
+
+thread $31f4:
+7ffcc71c KERNEL32.DLL  BaseThreadInitThunk
+7ffcc731 ntdll.dll     RtlUserThreadStart
+
+thread $3acc:
+7ffcc71c KERNEL32.DLL  BaseThreadInitThunk
+7ffcc731 ntdll.dll     RtlUserThreadStart
+
+thread $37a4:
+7ffcc71c KERNEL32.DLL  BaseThreadInitThunk
+7ffcc731 ntdll.dll     RtlUserThreadStart
+
+thread $b94:
+7ffcc71c KERNEL32.DLL  BaseThreadInitThunk
+7ffcc731 ntdll.dll     RtlUserThreadStart
+
+thread $336c:
+7ffcc71c KERNEL32.DLL  BaseThreadInitThunk
+7ffcc731 ntdll.dll     RtlUserThreadStart
+
