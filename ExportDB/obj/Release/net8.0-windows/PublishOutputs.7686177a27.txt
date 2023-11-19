@@ -2,6 +2,7 @@ D:\ExportDB\Setup\ExportDB\ExportDB.exe
 D:\ExportDB\Setup\ExportDB\ExportDB.dll
 D:\ExportDB\Setup\ExportDB\ExportDB.deps.json
 D:\ExportDB\Setup\ExportDB\ExportDB.runtimeconfig.json
+D:\ExportDB\Setup\ExportDB\ExportDB.dll.config
 D:\ExportDB\Setup\ExportDB\ExportDB.pdb
 D:\ExportDB\Setup\ExportDB\EntityFramework.SqlServer.dll
 D:\ExportDB\Setup\ExportDB\EntityFramework.dll

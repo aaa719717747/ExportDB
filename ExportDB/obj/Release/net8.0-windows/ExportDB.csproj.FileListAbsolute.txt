@@ -71,3 +71,4 @@ D:\ExportDB\ExportDB\obj\Release\net8.0-windows\refint\ExportDB.dll
 D:\ExportDB\ExportDB\obj\Release\net8.0-windows\ExportDB.pdb
 D:\ExportDB\ExportDB\obj\Release\net8.0-windows\ExportDB.genruntimeconfig.cache
 D:\ExportDB\ExportDB\obj\Release\net8.0-windows\ref\ExportDB.dll
+D:\ExportDB\ExportDB\bin\Release\net8.0-windows\ExportDB.dll.config
