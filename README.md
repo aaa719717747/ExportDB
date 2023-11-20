@@ -15,7 +15,10 @@ Excel2DB支持的数据类型说明：
 | Excel数据类型 | SQLite数据类型 | C#数据类型 |
 |----------|:---------|:--------:|
 | Int   | INT  | System.Int32   |
-| String   | Text  | System.String  |
-| Single   | REAL  | System.Single   |
+| String   | TEXT  | System.String  |
+| Single   | REAL  | float   |
 | Boolean   | BOOL  | System.Boolean  |
-| Vector3   | Text  | Vector3   |
+| Vector3   | TEXT  | System.String   |
+
+1.0.2 预发布功能
+1.增加一键导出C#代码API功能
