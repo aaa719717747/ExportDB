@@ -4,7 +4,7 @@ this is a excel to SQLite  DB  file tool
 
 ![UPM_Image](https://github.com/aaa719717747/ExportDB/blob/master/Images/show.png?raw=true)
 
-文件目录：
+### 文件目录：
 - Setup  包含工具exe可执行程序包
 - Tool   包含SQLiteDB查看工具
 - ExportDBFolder   包含导出的示例DB文件
@@ -20,5 +20,5 @@ Excel2DB支持的数据类型说明：
 | Boolean   | BOOL  | System.Boolean  |
 | Vector3   | TEXT  | System.String   |
 
-1.0.2 预发布功能
-1.增加一键导出C#代码API功能
+### 1.0.2 预发布功能
+- 1.增加一键导出C#代码API功能
